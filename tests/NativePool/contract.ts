@@ -1,4 +1,4 @@
-import { Contract, ContractProvider, Sender, Address, Cell, contractAddress, beginCell, Dictionary, TupleBuilder } from "ton-core";
+import { Contract, ContractProvider, Sender, Address, Cell, contractAddress, beginCell, Dictionary, TupleBuilder } from "@ton/core";
 
 type lendInfo = {
         typeLendAmount: number,

@@ -1,3 +1,5 @@
+#include "lib/stdlib.fc";
+
 (slice, slice, slice, slice, slice, cell, cell, cell) storage::load_data() inline {
         slice ds = get_data().begin_parse();
         slice owner_address = ds~load_msg_addr();
